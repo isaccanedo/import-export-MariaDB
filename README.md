@@ -10,7 +10,9 @@
  ```
  
  # Importar dados para o MariaDB
+ ```
  load data local infile "C:/RE/importa.txt" into table lista fields terminated by ';';
+ ```
  
 # Exemplo do arquito *.txt
 ```
