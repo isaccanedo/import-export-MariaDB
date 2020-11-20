@@ -2,7 +2,7 @@
 
 ### Exportar dados para o MariaDB
 ```
- select id, nome, telefone into outfile "C:/RE/exporta.txt" fields terminated by ';' from lista;<br>
+ select id, nome, telefone into outfile "C:/RE/exporta.txt" fields terminated by ';' from lista;
  ```
  ou<br>
  ```
